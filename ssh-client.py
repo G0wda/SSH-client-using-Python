@@ -12,7 +12,7 @@ hostname = sys.argv[1]
 username = sys.argv[2]
 port = 22
 
-password = getpass.getpass("Enter SSH password: ")
+password = getpass.getpass("Enter password: ")
 
 # Save local terminal state
 oldtty = termios.tcgetattr(sys.stdin)
